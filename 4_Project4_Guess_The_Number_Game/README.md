@@ -2,6 +2,10 @@
 
 Welcome to the "Guess the Random Number" game! This simple JavaScript game allows you to test your guessing skills by trying to figure out a random number between 1 and 100. Follow the instructions below to play the game.
 
+## Hosted Project Link
+
+To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/4_Project4_Guess_The_Number_Game/ 
+
 ## How to Play
 
 1. Open the `index.html` file in your web browser.
@@ -42,6 +46,4 @@ The game is implemented in JavaScript and follows these key logic steps:
 
 Have fun playing the "Guess the Random Number" game and see if you can guess the right number within the given attempts. Good luck, and may the odds be in your favor!
 
-## Hosted Project Link
 
-To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/4_Project4_Guess_The_Number_Game/ 
