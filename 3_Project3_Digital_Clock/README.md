@@ -26,6 +26,4 @@ To use the Digital Clock:
 
 This Digital Clock is a simple yet useful addition to your website or project. It provides an easy way to keep track of time. Enjoy using your Digital Clock!
 
-## Hosted Project Link
 
-To view the project, please visit .
