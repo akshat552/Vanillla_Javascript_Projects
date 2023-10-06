@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,300&display=swap" rel="stylesheet">
+    <title>BMI calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="hero">
+        <h1>BMI calculator</h1>
+        <form>
+          <label for="ht">Enter your height:</label>
+          <input type="text" id="ht" placeholder="Height in meters" />
+          <label for="wt">Enter your weight:</label>
+          <input type="text" id="wt" placeholder="weight in Kilograms" />
+          <input type="submit" value="Submit" id="sbmtbtn">
+          </form>
+          <button id="reset">
+            Reset
+          </button>
+          
+        <div id="results"></div>
+      </div>
+
+   
+
+      <div class="BMI_guide">
+        <ul>
+            <li><h3>BMI</h3></li>
+                <li>18.5</li>
+                <li>18.5-24.9</li>
+                <li>25-25.9</li>
+                <li>30 Above</li>
+        </ul>
+        <ul>
+            <li><h3>Weight Category</h3></li>
+            <li>Underweight</li>
+            <li>Healthy Weight</li>
+            <li>Overweight</li>
+            <li>Obese</li>
+        </ul>
+    </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>

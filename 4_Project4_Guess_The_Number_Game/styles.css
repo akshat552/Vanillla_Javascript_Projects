@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+}
+
+nav{
+    display:flex;
+    margin-top: 1rem;
+    height: 6rem;
+    font-size: 4rem;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+.container{
+    background-color: whitesmoke;
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    gap: 3rem;
+
+}
+
+
+.hero{
+    height:28rem;
+    width: 40rem;
+    background-color: black;
+    color:white;
+    border-radius: 0 4rem ;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 6rem;
+}
+
+.hero > p{
+    font-size: 1.4rem;
+  }
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#form > label{
+    font-size: 2rem;
+    margin: 2rem 0 1rem 0;
+}
+
+
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#guessedNum{
+    height: 2rem;
+    width: 22rem;
+    text-align: center;
+    font-size: 1.4rem;
+    padding:1rem;
+    border-radius: 0 0.8rem ;
+    font-family: 'Orbitron', sans-serif;
+}
+#guessSubmit{
+    margin:1rem;
+    width: 7rem;
+    height: 2.2rem;
+    font-size: larger;
+    padding:px;
+    font-family: 'Orbitron', sans-serif;
+    box-shadow: 2px 2px 3px white;
+}
+#resultPara{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem;
+}
