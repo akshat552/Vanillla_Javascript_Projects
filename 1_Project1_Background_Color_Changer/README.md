@@ -4,7 +4,7 @@ The "Background Color Changer" is a simple web application that allows users to 
 
 ## Hosted Project Link
 
-To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/1_Project1_Background_Color_Changer/ 
+To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/1_Project1_Background_Color_Changer
 ## How It Works
 
 1. Launch the "Background Color Changer" application in your web browser.
