@@ -4,7 +4,7 @@ The BMI (Body Mass Index) Calculator is a simple web application that helps user
 
 ## Hosted Project Link
 
-To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/BMI_calculator/ 
+To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/2_Project2_BMI_calculator/ 
 
 ## How It Works
 
