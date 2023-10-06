@@ -41,6 +41,4 @@ If you want to customize the appearance or behavior of the BMI Calculator, you c
 
 The BMI Calculator is a handy tool for individuals interested in monitoring their health and fitness. It offers quick and easy BMI calculations along with straightforward interpretations. Whether you're on a fitness journey or simply curious about your BMI, this application provides a user-friendly solution.
 
-## Hosted Project Link
 
-To view the project, please visit .
