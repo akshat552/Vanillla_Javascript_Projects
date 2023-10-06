@@ -2,6 +2,10 @@
 
 The "Background Color Changer" is a simple web application that allows users to change the background color of a webpage by clicking on colored buttons. This project offers an interactive and fun way to customize the appearance of a webpage, making it suitable for educational purposes or as a standalone feature on websites.
 
+## Hosted Project Link
+
+To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/1_Project1_Background_Color_Changer/ 
+
 ## How It Works
 
 1. Launch the "Background Color Changer" application in your web browser.
@@ -41,6 +45,3 @@ Developers can customize the "Background Color Changer" to suit their specific n
 
 The "Background Color Changer" is a fun and interactive way to engage users and allow them to personalize their browsing experience. Whether you're designing a web page or simply want to add a touch of interactivity to your site, this project offers a simple yet effective solution.
 
-## Hosted Project Link
-
-To view the project, please visit .
