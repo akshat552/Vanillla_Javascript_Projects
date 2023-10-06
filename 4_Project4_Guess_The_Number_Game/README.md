@@ -44,4 +44,4 @@ Have fun playing the "Guess the Random Number" game and see if you can guess the
 
 ## Hosted Project Link
 
-To view the project, please visit []https://akshat552.github.io/Vanillla_Javascript_Projects/4_Project4_Guess_The_Number_Game/ 
+To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/4_Project4_Guess_The_Number_Game/ 
