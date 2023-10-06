@@ -2,6 +2,10 @@
 
 The BMI (Body Mass Index) Calculator is a simple web application that helps users calculate their BMI based on their height and weight. BMI is a commonly used metric to determine whether a person falls under the category of underweight, healthy weight, overweight, or obese. This project provides a straightforward and user-friendly way to calculate and interpret BMI results.
 
+## Hosted Project Link
+
+To view the project, please visit https://akshat552.github.io/Vanillla_Javascript_Projects/BMI_calculator/ 
+
 ## How It Works
 
 1. Enter your height in meters and weight in kilograms in the provided input fields.
