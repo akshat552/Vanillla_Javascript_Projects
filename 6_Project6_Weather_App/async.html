@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Autour+One&family=Manrope:wght@600&display=swap" rel="stylesheet">
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="search">
+          <input type="text" id="city" placeholder="Enter a city" />
+          <button id="searchBtn">
+            <img src="./images/search.png" alt="" />
+          </button>
+        </div>
+        <div class="errorMessage">
+            <span>Invalid city name</span>
+        </div>
+
+        <div class="weatherInfo">
+          <div class="temperature">
+            <img id="weatherImage" src="./images/clouds.png" />
+            <p id="dayStatus"></p>
+            <span id="weatherStatus"></span>
+            <h1 id="currTemp"></h1>
+            <h5 id="feelsLike"></h5>
+            <h2 id="cityName"></h2>
+          </div>
+
+          <div class="relatedInfo">
+            <div class="info">
+              <img src="./images/wind.png" alt="" />
+              <div class="text">
+                <p id="windSpeed">wdwd</p>
+                <span class="belowText">Wind Speed</span>
+              </div>
+            </div>
+
+            <div class="info">
+              <img src="./images/humidity.png" alt="" />
+              <div class="text">
+                <p id="humidityInfo">wdefee</p>
+                <span class="belowText">Humidity</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="async_await.js"></script>
+</html>

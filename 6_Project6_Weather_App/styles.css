@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Manrope', sans-serif;
+
+}
+
+body {
+  background: #222;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background-image: linear-gradient(-20deg, #d558c8 0%, #24d292 100%);
+  border-radius: 1.5rem;
+  padding: 1.6rem;
+  overflow: hidden;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.search input {
+  height: 2.8rem;
+  width: 17rem;
+  border-radius: 2rem 2rem 2rem 2rem;
+  outline: none;
+  border: none;
+  padding: 20px;
+  font-size: 1.1rem;
+  color:#212121;
+  cursor: pointer;
+  margin-right: 1.4rem;
+}
+
+.search button {
+  height: 2.8rem;
+  width: 2.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: none;
+}
+
+.search button img {
+  width: 1rem;
+}
+.temperature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.temperature img {
+  width: 14rem;
+}
+
+.weatherInfo {
+  width: 100%;
+  color: white;
+}
+.relatedInfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-top: 1.8rem;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+}
+.info img {
+  width: 2.4rem;
+}
+
+.weatherInfo {
+  display: none;
+}
+
+.belowText {
+  font-size: 0.8rem;
+}
+
+.temperature p {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.temperature h2 {
+  font-size: 2rem;
+}
+
+.errorMessage{
+    margin-top: 0.5rem;
+    margin-left: 0.6rem;
+    font-size: 0.8rem;
+    color: white;
+    display:none;
+}
