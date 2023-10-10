@@ -1,7 +1,7 @@
 # My Weather App
 
 ##Link to open
-https://akshat552.github.io/Vanillla_Javascript_Projects/6_Project6_Weather_App/
+http://akshat552.github.io/Vanillla_Javascript_Projects/6_Project6_Weather_App/
 
 ## Description
 
