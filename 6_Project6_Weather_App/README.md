@@ -1,5 +1,33 @@
 # My Weather App
 
+# Disclaimer: Insecure Connection Warning
+
+Before you proceed to open this project in your browser, please be aware that it requires allowing insecure connections. Follow the steps below to proceed:
+
+**Step 1:** Launch your preferred web browser.
+
+**Step 2:** When attempting to access the project, you may encounter a warning message indicating that the connection is insecure. This is because the project might be using HTTP instead of HTTPS.
+
+**Step 3:** Depending on your browser, you will need to take different actions to proceed:
+
+- **For Google Chrome:**
+    - Click on the "Advanced" button (usually appears as "Advanced" or "Details").
+    - Next, click on "Proceed to [Project URL] (unsafe)" or a similar option to continue to the project despite the insecure connection.
+
+- **For Mozilla Firefox:**
+    - Click on "Advanced" (may also appear as "Advanced" or "Add Exception").
+    - Then, click on "Accept the Risk and Continue" or a similar option to access the project.
+
+- **For Microsoft Edge:**
+    - Click on "Details" (or "More Information" or "Advanced").
+    - Subsequently, click on "Go on to the webpage (not recommended)" or a similar option to proceed.
+
+**Step 4:** After taking the above action, the project should now load in your browser without further warnings.
+
+Please be cautious when accessing projects with insecure connections, as data transmitted may not be secure. Ensure that you trust the source before proceeding.
+
+Note: It's recommended to use secure HTTPS connections whenever possible for increased security and data protection.
+
 ##Link to open
 http://akshat552.github.io/Vanillla_Javascript_Projects/6_Project6_Weather_App/
 
