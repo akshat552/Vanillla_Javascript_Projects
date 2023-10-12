@@ -9,29 +9,47 @@ const feelsLikeTemp = document.querySelector("#feelsLike");
 const weatherStatus = document.querySelector("#dayStatus");
 const invalidEntry = document.querySelector(".errorMessage")
 const inputField = document.querySelector("#city")
+const cityChanger = document.querySelector(".notMyCity")
 
-search.addEventListener("click", (e) => {
+let i=0;
+let a=i;
+
+const apiKey = '096079867659b492b878ceaf85bd945f';
+cityChanger.addEventListener('click', (e) => {
+  
+  e.preventDefault();
+  a++;
+  if(a>5)a=0;
+  const location = document.querySelector("#city").value;
+  getuser(location,a);
+})
+
+search.addEventListener("click",(e)=> {
   e.preventDefault();
 
   const location = document.querySelector("#city").value;
-  getuser(location);
+  getuser(location,i);
 });
 
-async function getuser(city) {
+
+
+
+async function getuser(city,i) {
   try {
     const locationData = await fetch(
-      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=096079867659b492b878ceaf85bd945f`
+      `http://api.openweathermap.org/geo/1.0/direct?q=${city}&limit=5&appid=${apiKey}`
     );
-
+       console.log(locationData);
     
     const locationResponse = await locationData.json();
-
-    let lat = locationResponse[0]["lat"];
-    let lon = locationResponse[0]["lon"];
-    let cityName = locationResponse[0]["name"];
+    console.log(locationResponse);
+    let lat = locationResponse[i]["lat"];
+    let lon = locationResponse[i]["lon"];
+    let cityName = locationResponse[i]["name"];
+    let countryCode = locationResponse[i]["country"];
 
     const response = await fetch(
-      `https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${lat}&lon=${lon}&appid=096079867659b492b878ceaf85bd945f`
+      `https://api.openweathermap.org/data/2.5/weather?units=metric&lat=${lat}&lon=${lon}&appid=${apiKey}`
     );
 
       const data = await response.json();
@@ -44,7 +62,7 @@ async function getuser(city) {
 
     // city output
 
-    cityOnScreen.innerHTML = `${cityName}`;
+    cityOnScreen.innerHTML = `${cityName},${countryCode}`;
 
     // Feels Like Temperature data
 
@@ -85,14 +103,19 @@ async function getuser(city) {
 
     infoSection.style.display = "block";
     invalidEntry.style.display='none';
-      
-    }
+    cityChanger.style.display='block';
 
+   
+  }
+  
     
    catch (error) {
     console.log("Error:", error);
     invalidEntry.style.display='block';
     infoSection.style.display = "none";
+    cityChanger.style.display='none';
+    a==i;
+    alert("Your city not found!")
     
   }
 }
