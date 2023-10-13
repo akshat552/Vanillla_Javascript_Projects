@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+
+.container{
+    min-height: 100vh;
+    min-width: 100%;
+    background-image: linear-gradient(-225deg, #5271C4 0%, #B19FFF 48%, #ECA1FE 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero{
+    display: flex;
+    flex-direction:column;
+    width: 100;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 2.5rem;
+    width: 35rem;
+}
+.hero p{
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.hero p img{
+    width: 3.6rem;
+    margin-left: 1rem;
+}
+
+.inputs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    width: 30rem;
+    border: 2px solid #eee;
+    border-radius: 2rem;
+    height :2.5rem;
+    background-color: #E8E8E8;
+
+}
+
+.inputs input{
+    flex:1;
+    height :2.5rem;
+    outline: none;
+    border: none;
+    padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+    background: transparent;
+
+}
+
+.inputs button{
+    height :2.5rem;
+    padding: 0.5rem;
+    width: 7rem;
+    border:none;
+    background: #FF5F1F;
+    border-radius: 2rem;
+    color:white;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+
+ul li{
+    position: relative;
+    list-style: none;
+    margin : 0.7rem 0.4rem 0rem 2.5rem;
+    display: flex;
+    flex-grow: nowrap;
+    
+}
+
+ul li::before{
+    position:absolute;
+    content:'';
+    height: 20px;
+    width: 20px;
+    margin-right:5rem;
+    border-radius: 50%;
+    background-image: url(./images/unchecked.png);
+    align-content: center;
+    background-position:center;
+    background-size: cover;
+    top:0.1rem;
+    right: 23rem;
+    cursor: pointer;
+
+}
+
+ul li.checked{
+    color:#555;
+    text-decoration: line-through;
+
+
+}
+
+ul li.checked::before{
+    background-image: url(./images/checked.png);
+    
+
+}
+
+ul li span{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left:25rem;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    
+}
+
+ul li span:hover{
+    background: #E8E8E8;
+}
+
+.taskList{
+    background:pink;
+}
+
+.hero p img#del{
+    background-color: #FF5F1F;
+    width: 2rem;
+    margin-left: 13rem;
+    border-radius: 50%;
+}
