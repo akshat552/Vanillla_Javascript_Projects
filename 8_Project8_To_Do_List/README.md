@@ -8,12 +8,12 @@ A minimalistic web-based To-Do List application built with HTML, CSS, and JavaSc
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/akshat552/Vanillla_Javascript_Projects/tree/master/8_Project8_To_Do_List
    ```
 
 2. Open the project folder:
    ```bash
-   cd your-repo-name
+   cd 8_Project8_To_Do_List
    ```
 
 3. Open `index.html` in your web browser.
