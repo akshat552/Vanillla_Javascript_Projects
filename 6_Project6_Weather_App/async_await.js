@@ -75,7 +75,7 @@ async function getuser(city,i) {
 
     // WindSpeed
     let speed = data.wind["speed"];
-    windOnScreen.innerHTML = `${speed} Kmph`;
+    windOnScreen.innerHTML = `${Math.ceil(speed*3.6)} Kmph`;
 
     // Weather Image Changer
     const weathertype = data.weather[0]["main"];
